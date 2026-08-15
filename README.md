@@ -97,3 +97,12 @@ Ainda depende de conteúdo oficial:
 ## Observação técnica
 
 A landing page é uma interface de divulgação e comunicação científica. Ela não substitui o protocolo técnico-operacional.
+
+
+## Acesso aos materiais
+
+A seção final possui dois acessos funcionais:
+- **Baixar protocolo** → `assets/protocolo-integrado-potabilidade-agua-dseis.pdf`
+- **Ver infográfico** → `assets/infografico-protocolo.png` em nova aba
+
+A seção final foi compactada e reorganizada em duas colunas para reduzir espaço vertical e criar uma área de acesso visualmente mais clara.
