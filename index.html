@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Água Segura. Vigilância Inteligente. | Protocolo Integrado DSEIs</title>
+  <meta name="description" content="Protocolo Integrado de Vigilância e Gestão da Potabilidade da Água no âmbito dos DSEIs no Brasil. Monitoramento ambiental, sensores, LoRa, computação em nuvem e Inteligência Artificial como apoio à gestão baseada em evidências.">
+  <meta name="keywords" content="vigilância ambiental em saúde, saúde indígena, qualidade da água, potabilidade, DSEI, SESAI, IoT, LoRa, Inteligência Artificial, monitoramento ambiental">
+  <meta name="author" content="Produto Técnico e Tecnológico — 2026">
+  <meta name="theme-color" content="#062B45">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Água Segura. Vigilância Inteligente.">
+  <meta property="og:description" content="Protocolo integrado para monitoramento, gestão de riscos e apoio à tomada de decisão sobre a qualidade da água em territórios indígenas.">
+  <meta property="og:url" content="">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"Protocolo Integrado de Vigilância e Gestão da Potabilidade da Água",
+    "description":"Produto Técnico e Tecnológico — 2026",
+    "inLanguage":"pt-BR"
+  }
+  </script>
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="site-header" id="topo">
+  <nav class="navbar container" aria-label="Navegação principal">
+    <a class="brand" href="#inicio" aria-label="Início">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48" role="img"><path d="M24 4C18 13 9 20 9 30a15 15 0 0 0 30 0C39 20 30 13 24 4Z"/><path d="M15 30c1 6 5 9 10 10"/></svg>
+      </span>
+      <span>
+        <strong>ÁGUA SEGURA</strong>
+        <small>Vigilância inteligente</small>
+      </span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-menu" id="main-menu">
+      <a href="#desafio">Desafio</a>
+      <a href="#solucao">Proposta</a>
+      <a href="#fluxo">Como funciona</a>
+      <a href="#tecnologia">Tecnologia</a>
+      <a href="#parametros">Parâmetros</a>
+      <a href="#piloto">Piloto</a>
+      <a href="#governanca">Governança</a>
+      <a class="nav-cta" href="#protocolo">Conheça o protocolo</a>
+    </div>
+  </nav>
+  <div class="progress-bar" id="progress-bar" aria-hidden="true"></div>
+</header>
+
+<main id="conteudo">
+  <section class="hero section-dark" id="inicio">
+    <div class="hero-orbit hero-orbit-a"></div>
+    <div class="hero-orbit hero-orbit-b"></div>
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> Produto Técnico e Tecnológico · 2026</div>
+        <h1>ÁGUA SEGURA.<br><em>VIGILÂNCIA INTELIGENTE.</em></h1>
+        <p class="hero-lead">Um protocolo integrado para orientar o monitoramento contínuo da qualidade da água para consumo humano em territórios indígenas, articulando Vigilância Ambiental em Saúde, sensores, comunicação remota, computação em nuvem e Inteligência Artificial.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#solucao">Conheça o projeto <span>→</span></a>
+          <a class="btn btn-ghost" href="#fluxo">Como funciona <span>↓</span></a>
+        </div>
+        <div class="badges" aria-label="Tecnologias e áreas">
+          <span>IoT</span><span>LoRa</span><span>Cloud</span><span>Inteligência Artificial</span><span>Vigilância Ambiental</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Ilustração conceitual da integração entre território, sensores, conectividade e dados">
+        <div class="water-disc"></div>
+        <div class="territory-map">
+          <svg viewBox="0 0 520 430" aria-hidden="true">
+            <path class="map-shape" d="M72 82 136 47l58 12 42-23 66 35 66-6 61 50-21 48 33 42-54 50-23 65-67 20-51-35-63 15-45-54-65-16 22-65-34-52z"/>
+            <path class="river" d="M87 116c80 42 101 30 145 77s71 52 119 36 74-16 120 27"/>
+            <path class="river thin" d="M139 76c25 62 42 73 33 120s31 73 92 85"/>
+            <circle cx="245" cy="176" r="8" class="node"/><circle cx="245" cy="176" r="18" class="node-ring"/>
+            <circle cx="329" cy="231" r="7" class="node"/><circle cx="329" cy="231" r="16" class="node-ring"/>
+            <circle cx="188" cy="258" r="7" class="node"/><circle cx="188" cy="258" r="16" class="node-ring"/>
+          </svg>
+        </div>
+        <div class="sensor-card">
+          <div class="sensor-icon">⌁</div>
+          <div><strong>Monitoramento</strong><span>dados ambientais</span></div>
+          <span class="live-dot">●</span>
+        </div>
+        <div class="data-chip chip-one"><b>pH</b><span>6,0–9,5</span></div>
+        <div class="data-chip chip-two"><b>LoRa</b><span>conectividade</span></div>
+        <div class="data-chip chip-three"><b>IA</b><span>apoio à decisão</span></div>
+      </div>
+    </div>
+    <div class="hero-bottom container">
+      <div>DA ÁGUA AO DADO.</div><div>DO DADO À DECISÃO.</div><div>DA DECISÃO À PROTEÇÃO.</div>
+    </div>
+  </section>
+
+  <section class="highlights">
+    <div class="container highlight-grid">
+      <div><strong>10</strong><span>aldeias no projeto piloto</span></div>
+      <div><strong>34</strong><span>DSEIs contemplados pela abrangência do protocolo</span></div>
+      <div><strong>7</strong><span>parâmetros físico-químicos previstos no monitoramento</span></div>
+      <div><strong>IA</strong><span>Random Forest como modelo proposto, quando validado</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="desafio">
+    <div class="container">
+      <div class="section-heading reveal">
+        <div class="kicker">01 · O desafio</div>
+        <h2>Vigilância da água em territórios de alta complexidade.</h2>
+        <p>O protocolo responde a um contexto em que distância, infraestrutura, logística e conectividade condicionam a capacidade de monitorar continuamente a qualidade da água.</p>
+      </div>
+      <div class="challenge-grid">
+        <div class="challenge-panel reveal">
+          <span class="panel-label">CONTEXTO TERRITORIAL</span>
+          <div class="challenge-list">
+            <article><span>01</span><div><h3>Isolamento geográfico</h3><p>Longas distâncias e dificuldades de acesso entre aldeias e centros urbanos.</p></div></article>
+            <article><span>02</span><div><h3>Infraestrutura limitada</h3><p>Desafios para implantação, operação e manutenção de sistemas convencionais.</p></div></article>
+            <article><span>03</span><div><h3>Conectividade</h3><p>Limitações de comunicação digital dificultam estratégias de monitoramento remoto.</p></div></article>
+            <article><span>04</span><div><h3>Dados fragmentados</h3><p>É necessário aproximar produção de informação, análise, decisão e resposta.</p></div></article>
+          </div>
+        </div>
+        <div class="consequence-card reveal">
+          <div class="big-water-icon">≈</div>
+          <span class="panel-label">IMPLICAÇÃO PARA A VIGILÂNCIA</span>
+          <h3>Transformar monitoramento em capacidade de resposta.</h3>
+          <p>O protocolo propõe integrar aquisição de dados, comunicação, armazenamento, análise, classificação de risco, alertas, avaliação técnica e resposta institucional.</p>
+          <div class="quote-line">“Monitorar continuamente é aproximar informação da decisão.”</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tint" id="solucao">
+    <div class="container">
+      <div class="section-heading centered reveal">
+        <div class="kicker">02 · A proposta</div>
+        <h2>Uma arquitetura integrada para a vigilância da água.</h2>
+        <p>O protocolo transforma uma solução tecnológica em instrumento de governança, conectando processos técnicos, dados, responsabilidades e respostas institucionais.</p>
+      </div>
+      <div class="architecture reveal">
+        <div class="arch-line"></div>
+        <article><div class="arch-icon">◉</div><strong>SENSORES</strong><span>Aquisição ambiental</span></article>
+        <div class="arch-arrow">→</div>
+        <article><div class="arch-icon">⌁</div><strong>LoRa</strong><span>Transmissão remota</span></article>
+        <div class="arch-arrow">→</div>
+        <article><div class="arch-icon">☁</div><strong>NUVEM</strong><span>Armazenamento</span></article>
+        <div class="arch-arrow">→</div>
+        <article><div class="arch-icon">AI</div><strong>IA</strong><span>Processamento</span></article>
+        <div class="arch-arrow">→</div>
+        <article><div class="arch-icon">!</div><strong>ALERTAS</strong><span>Risco identificado</span></article>
+        <div class="arch-arrow">→</div>
+        <article><div class="arch-icon">↗</div><strong>GESTÃO</strong><span>Resposta institucional</span></article>
+      </div>
+      <div class="principle-grid">
+        <div class="principle-card"><span>01</span><h3>Dados contínuos</h3><p>Produção sistemática de informações sobre o comportamento da qualidade da água.</p></div>
+        <div class="principle-card"><span>02</span><h3>Gestão de riscos</h3><p>Classificação das condições e acionamento de fluxos de resposta conforme a situação.</p></div>
+        <div class="principle-card"><span>03</span><h3>Decisão baseada em evidências</h3><p>Informações qualificadas para apoiar gestores e equipes técnicas.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="fluxo">
+    <div class="container">
+      <div class="section-heading reveal">
+        <div class="kicker">03 · Como funciona</div>
+        <h2>Do dado à resposta — sem perder o território.</h2>
+        <p>O fluxo operacional preserva a sequência definida no protocolo e torna visível a passagem da aquisição dos dados à melhoria contínua.</p>
+      </div>
+      <div class="flow">
+        <div class="flow-progress"></div>
+        <article class="flow-step reveal"><span>01</span><div class="flow-icon">◉</div><div><h3>Aquisição</h3><p>Coleta automática e contínua dos dados produzidos pelos sensores.</p></div></article>
+        <article class="flow-step reveal"><span>02</span><div class="flow-icon">⌁</div><div><h3>Transmissão</h3><p>Dados encaminhados por módulos de comunicação e infraestrutura LoRa prevista.</p></div></article>
+        <article class="flow-step reveal"><span>03</span><div class="flow-icon">☁</div><div><h3>Armazenamento</h3><p>Registro em banco de dados institucional, com validação e rastreabilidade.</p></div></article>
+        <article class="flow-step reveal"><span>04</span><div class="flow-icon">∑</div><div><h3>Processamento / análise</h3><p>Análise integrada, tendências, padrões e indicadores para apoio à decisão.</p></div></article>
+        <article class="flow-step reveal"><span>05</span><div class="flow-icon">◈</div><div><h3>Classificação de risco</h3><p>Condição normal, atenção, impropriedade para consumo ou emergência sanitária.</p></div></article>
+        <article class="flow-step reveal"><span>06</span><div class="flow-icon">!</div><div><h3>Alerta</h3><p>Geração de alerta institucional com contexto do ponto monitorado.</p></div></article>
+        <article class="flow-step reveal"><span>07</span><div class="flow-icon">✓</div><div><h3>Avaliação técnica</h3><p>Verificação do histórico, sensores, comunicação, infraestrutura e fatores ambientais.</p></div></article>
+        <article class="flow-step reveal"><span>08</span><div class="flow-icon">↗</div><div><h3>Resposta</h3><p>Definição e implementação das medidas corretivas conforme a ocorrência.</p></div></article>
+        <article class="flow-step reveal"><span>09</span><div class="flow-icon">↻</div><div><h3>Avaliação da efetividade</h3><p>Monitoramento da evolução dos parâmetros e dos resultados das intervenções.</p></div></article>
+        <article class="flow-step reveal"><span>10</span><div class="flow-icon">∞</div><div><h3>Melhoria contínua</h3><p>Revisão dos procedimentos, educação permanente e aperfeiçoamento do sistema.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="tecnologia">
+    <div class="container">
+      <div class="section-heading reveal">
+        <div class="kicker light">04 · Tecnologia</div>
+        <h2>Infraestrutura digital a serviço da vigilância.</h2>
+        <p>As tecnologias aparecem como meios para qualificar a produção, integração e utilização das informações.</p>
+      </div>
+      <div class="tech-grid">
+        <article class="tech-card reveal"><span class="tech-number">01</span><div class="tech-symbol">◉</div><h3>Sensores IoT</h3><p>Aquisição dos parâmetros físico-químicos definidos para os pontos monitorados.</p></article>
+        <article class="tech-card reveal"><span class="tech-number">02</span><div class="tech-symbol">⌁</div><h3>LoRa</h3><p>Infraestrutura prevista para transmissão remota das informações produzidas em campo.</p></article>
+        <article class="tech-card reveal"><span class="tech-number">03</span><div class="tech-symbol">☁</div><h3>Computação em nuvem</h3><p>Armazenamento, processamento e serviços computacionais do sistema.</p></article>
+        <article class="tech-card reveal"><span class="tech-number">04</span><div class="tech-symbol">AI</div><h3>Inteligência Artificial</h3><p>Modelos computacionais para análise e classificação de risco como apoio à decisão.</p></article>
+        <article class="tech-card reveal"><span class="tech-number">05</span><div class="tech-symbol">▦</div><h3>Plataforma e dados</h3><p>Integração, validação, histórico e rastreabilidade das informações ambientais.</p></article>
+        <article class="tech-card reveal"><span class="tech-number">06</span><div class="tech-symbol">!</div><h3>Sistemas de alerta</h3><p>Comunicação institucional das alterações identificadas e da classificação de risco.</p></article>
+      </div>
+      <div class="ai-note reveal"><div class="ai-note-mark">AI</div><div><strong>Random Forest como apoio à decisão</strong><p>O protocolo propõe a utilização do algoritmo Random Forest para processamento e classificação, condicionada à validação para a finalidade proposta. A IA não substitui a avaliação das equipes técnicas.</p></div></div>
+    </div>
+  </section>
+
+  <section class="section" id="riscos">
+    <div class="container">
+      <div class="section-heading centered reveal">
+        <div class="kicker">05 · Gestão de riscos</div>
+        <h2>Quatro condições. Uma lógica de resposta.</h2>
+        <p>A classificação automatizada é parte do fluxo de vigilância e deve desencadear avaliação técnica e respostas institucionais compatíveis com a situação.</p>
+      </div>
+      <div class="risk-grid">
+        <article class="risk-card normal reveal"><div class="risk-dot"></div><span>01</span><h3>Condição normal</h3><p>Condições monitoradas dentro dos critérios estabelecidos.</p><strong>Conduta: acompanhamento</strong></article>
+        <article class="risk-card attention reveal"><div class="risk-dot"></div><span>02</span><h3>Atenção</h3><p>Alteração que requer acompanhamento intensificado.</p><strong>Conduta: monitoramento intensificado</strong></article>
+        <article class="risk-card improper reveal"><div class="risk-dot"></div><span>03</span><h3>Impropriedade para consumo</h3><p>Condição que requer verificação e resposta sanitária.</p><strong>Conduta: inspeção e coleta confirmatória</strong></article>
+        <article class="risk-card emergency reveal"><div class="risk-dot"></div><span>04</span><h3>Emergência sanitária</h3><p>Evento que demanda acionamento imediato do plano de resposta do DSEI.</p><strong>Conduta: resposta emergencial</strong></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tint" id="parametros">
+    <div class="container">
+      <div class="section-heading reveal">
+        <div class="kicker">06 · O que monitoramos?</div>
+        <h2>Parâmetros físico-químicos e análises complementares.</h2>
+        <p>Os parâmetros abaixo e seus valores de referência são apresentados no protocolo com base na Portaria GM/MS nº 888/2021. As análises laboratoriais continuam fazendo parte do sistema.</p>
+      </div>
+      <div class="table-wrap reveal">
+        <table>
+          <caption>Parâmetros monitorados e limites de referência apresentados no protocolo</caption>
+          <thead><tr><th>Parâmetro</th><th>Unidade</th><th>Referência</th><th>Frequência</th></tr></thead>
+          <tbody>
+            <tr><td><strong>pH</strong></td><td>Escala Sorensen</td><td>6,0 – 9,5</td><td>Contínuo · 15 min</td></tr>
+            <tr><td><strong>Temperatura</strong></td><td>°C</td><td>25,0 · referência</td><td>Contínuo · 15 min</td></tr>
+            <tr><td><strong>Turbidez</strong></td><td>UNT</td><td>máx. 5,0</td><td>Contínuo · 15 min</td></tr>
+            <tr><td><strong>Condutividade elétrica</strong></td><td>µS/cm</td><td>1000 · referência</td><td>Contínuo · 15 min</td></tr>
+            <tr><td><strong>Oxigênio dissolvido</strong></td><td>mg/L</td><td>mín. 6,0</td><td>Contínuo · 15 min</td></tr>
+            <tr><td><strong>Sólidos totais dissolvidos</strong></td><td>mg/L</td><td>máx. 1000</td><td>Diário</td></tr>
+            <tr><td><strong>Clorofila-a</strong></td><td>µg/L</td><td>máx. 10</td><td>Diário</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="lab-note reveal"><span>LAB</span><p><strong>Monitoramento automatizado não substitui as análises laboratoriais.</strong> O protocolo prevê coleta periódica para parâmetros microbiológicos — coliformes totais e <em>Escherichia coli</em> — e metais pesados como mercúrio, chumbo e arsênio, integrando os resultados ao histórico da qualidade da água.</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="piloto">
+    <div class="container pilot-grid">
+      <div class="pilot-copy reveal">
+        <div class="kicker">07 · Projeto piloto</div>
+        <h2>Validar no território antes de ampliar.</h2>
+        <p>O projeto piloto constitui a etapa inicial de validação operacional do protocolo, avaliando sua viabilidade técnica, operacional e institucional em condições reais de uso.</p>
+        <div class="pilot-metric"><strong>10</strong><span>aldeias indígenas</span></div>
+        <div class="municipalities">
+          <span>Bom Jesus do Tocantins</span><span>São Geraldo do Araguaia</span><span>Santa Luzia</span>
+        </div>
+      </div>
+      <div class="pilot-map reveal">
+        <div class="map-label">PARÁ · PROJETO PILOTO</div>
+        <svg viewBox="0 0 500 470" role="img" aria-label="Mapa conceitual do estado do Pará com pontos ilustrativos do projeto piloto">
+          <path d="M130 35 235 17l81 41 75-2 47 83-34 56 30 65-65 71-51 86-83-27-73 35-67-67 22-72-52-63 34-75-43-62z" class="pará-shape"/>
+          <path d="M117 135c72 42 100 24 132 72 34 51 71 66 121 40 35-18 55-10 76 16" class="map-river"/>
+          <g class="pilot-points">
+            <circle cx="221" cy="228" r="7"/><circle cx="221" cy="228" r="18"/>
+            <circle cx="274" cy="267" r="7"/><circle cx="274" cy="267" r="18"/>
+            <circle cx="184" cy="290" r="7"/><circle cx="184" cy="290" r="18"/>
+          </g>
+          <text x="232" y="224">Bom Jesus do Tocantins</text>
+          <text x="285" y="263">São Geraldo do Araguaia</text>
+          <text x="195" y="287">Santa Luzia</text>
+        </svg>
+        <div class="map-foot">Localização conceitual · sem coordenadas geográficas</div>
+      </div>
+    </div>
+    <div class="container villages reveal">
+      <span>Aldeias do piloto</span>
+      <div class="village-list">
+        <b>Akrã</b><b>Akrã Katejê</b><b>Hôprirê</b><b>Ipirahy</b><b>Itawá</b><b>Krãpei-Jê</b><b>Kripei</b><b>Tukapehy</b><b>Yetá</b><b>Akro Katejê</b>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="governanca">
+    <div class="container">
+      <div class="section-heading centered reveal">
+        <div class="kicker light">08 · Governança</div>
+        <h2>Uma rede integrada de vigilância e gestão.</h2>
+        <p>A implementação depende de responsabilidades complementares entre gestão, equipes técnicas, laboratórios, lideranças, comunidades e instituições de pesquisa.</p>
+      </div>
+      <div class="governance">
+        <div class="gov-center"><span>GESTÃO INTEGRADA</span><strong>QUALIDADE<br>DA ÁGUA</strong></div>
+        <div class="gov-node n1">SESAI</div><div class="gov-node n2">DSEIs</div><div class="gov-node n3">SESANI / VAS</div>
+        <div class="gov-node n4">EMSI</div><div class="gov-node n5">AISAN</div><div class="gov-node n6">Laboratórios</div>
+        <div class="gov-node n7">Lideranças</div><div class="gov-node n8">Comunidades</div><div class="gov-node n9">Pesquisa</div>
+        <svg class="gov-lines" viewBox="0 0 900 600" aria-hidden="true">
+          <line x1="450" y1="300" x2="130" y2="90"/><line x1="450" y1="300" x2="450" y2="75"/><line x1="450" y1="300" x2="770" y2="90"/>
+          <line x1="450" y1="300" x2="90" y2="300"/><line x1="450" y1="300" x2="810" y2="300"/>
+          <line x1="450" y1="300" x2="130" y2="510"/><line x1="450" y1="300" x2="450" y2="530"/><line x1="450" y1="300" x2="770" y2="510"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="indicadores">
+    <div class="container">
+      <div class="section-heading reveal">
+        <div class="kicker">09 · Indicadores</div>
+        <h2>Como avaliar o sistema?</h2>
+        <p>O protocolo prevê indicadores para acompanhar desempenho, qualidade da informação, resposta institucional e efetividade das medidas.</p>
+      </div>
+      <div class="indicator-grid">
+        <article class="indicator-card reveal"><span>01</span><div class="indicator-icon">◌</div><h3>Cobertura do monitoramento</h3><p>Acompanha a abrangência do monitoramento no território.</p></article>
+        <article class="indicator-card reveal"><span>02</span><div class="indicator-icon">✓</div><h3>Qualidade dos dados</h3><p>Verifica consistência, completude e qualidade das informações.</p></article>
+        <article class="indicator-card reveal"><span>03</span><div class="indicator-icon">◷</div><h3>Tempo de detecção</h3><p>Permite acompanhar a oportunidade de identificação das alterações.</p></article>
+        <article class="indicator-card reveal"><span>04</span><div class="indicator-icon">→</div><h3>Tempo de resposta</h3><p>Avalia a oportunidade da resposta institucional.</p></article>
+        <article class="indicator-card reveal"><span>05</span><div class="indicator-icon">⚙</div><h3>Ações corretivas</h3><p>Acompanha a execução das medidas previstas para as ocorrências.</p></article>
+        <article class="indicator-card reveal"><span>06</span><div class="indicator-icon">↻</div><h3>Efetividade das intervenções</h3><p>Observa a evolução após a implementação das medidas corretivas.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tint" id="politicas">
+    <div class="container">
+      <div class="section-heading centered reveal">
+        <div class="kicker">10 · Políticas públicas</div>
+        <h2>Alinhamento institucional e normativo.</h2>
+        <p>O protocolo se articula aos instrumentos e políticas apresentados em seu documento técnico.</p>
+      </div>
+      <div class="policy-grid">
+        <article class="policy-card reveal"><span>PNASPI</span><h3>Política Nacional de Atenção à Saúde dos Povos Indígenas</h3><p>Referência para proteção, promoção e recuperação da saúde dos povos indígenas.</p></article>
+        <article class="policy-card reveal"><span>PNSI</span><h3>Programa Nacional de Saneamento Indígena</h3><p>Referência apresentada no protocolo para a organização das ações de saneamento indígena.</p></article>
+        <article class="policy-card reveal"><span>PORTARIA</span><h3>GM/MS nº 888/2021</h3><p>Referência para padrões de potabilidade e critérios de monitoramento apresentados no protocolo.</p></article>
+        <article class="policy-card reveal"><span>MARCO</span><h3>Lei nº 14.026/2020</h3><p>Marco Legal do Saneamento Básico citado no alinhamento normativo do documento.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="resultados">
+    <div class="container">
+      <div class="section-heading centered reveal">
+        <div class="kicker">11 · Resultados esperados</div>
+        <h2>Fortalecer a vigilância. Qualificar a resposta.</h2>
+        <p>São expectativas decorrentes da implementação e validação do protocolo — não resultados experimentais comprovados.</p>
+      </div>
+      <div class="outcomes">
+        <div class="outcome reveal"><span>01</span><strong>Fortalecimento da Vigilância Ambiental em Saúde</strong></div>
+        <div class="outcome reveal"><span>02</span><strong>Identificação mais precoce de riscos</strong></div>
+        <div class="outcome reveal"><span>03</span><strong>Apoio à tomada de decisão baseada em evidências</strong></div>
+        <div class="outcome reveal"><span>04</span><strong>Melhoria da capacidade institucional de resposta</strong></div>
+        <div class="outcome reveal"><span>05</span><strong>Integração e qualificação dos dados</strong></div>
+        <div class="outcome reveal"><span>06</span><strong>Monitoramento contínuo da qualidade da água</strong></div>
+        <div class="outcome reveal"><span>07</span><strong>Fortalecimento da gestão territorial</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta section-dark" id="protocolo">
+    <div class="container final-inner reveal">
+      <div class="kicker light">12 · Conheça o protocolo</div>
+      <h2>MONITORAR.<br>COMPREENDER.<br>ALERTAR. AGIR.<br><em>PROTEGER.</em></h2>
+      <p>O protocolo integra ciência, tecnologia, território, saúde e gestão para apoiar a vigilância da potabilidade da água nos DSEIs.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#" data-placeholder="Baixar protocolo">Baixar protocolo <span>↓</span></a>
+        <a class="btn btn-ghost" href="#" data-placeholder="Ver infográfico">Ver infográfico <span>→</span></a>
+      </div>
+      <small class="placeholder-note">Os botões acima estão preparados para receber os links oficiais posteriormente.</small>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand footer-brand" href="#inicio"><span class="brand-mark"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4C18 13 9 20 9 30a15 15 0 0 0 30 0C39 20 30 13 24 4Z"/><path d="M15 30c1 6 5 9 10 10"/></svg></span><span><strong>PROTOCOLO INTEGRADO</strong><small>Vigilância e gestão da potabilidade da água</small></span></a>
+      <p>Produto Técnico e Tecnológico — 2026</p>
+    </div>
+    <div><h3>Projeto</h3><a href="#solucao">Proposta</a><a href="#fluxo">Fluxo operacional</a><a href="#piloto">Projeto piloto</a></div>
+    <div><h3>Conteúdo</h3><a href="#tecnologia">Tecnologia</a><a href="#parametros">Parâmetros</a><a href="#indicadores">Indicadores</a></div>
+    <div><h3>Institucional</h3><a href="#governanca">Governança</a><a href="#politicas">Políticas públicas</a><a href="#protocolo">Protocolo</a></div>
+  </div>
+  <div class="container footer-bottom"><span>Fonte principal: Protocolo Integrado de Vigilância e Gestão da Potabilidade da Água nos DSEIs — 2026.</span><span>Links oficiais e identidades institucionais: inserir posteriormente.</span></div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="js/main.js"></script>
+</body>
+</html>
