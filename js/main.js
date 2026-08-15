@@ -30,14 +30,35 @@
     });
   }, {threshold:.12});
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-
-  document.querySelectorAll('[data-placeholder]').forEach(link => {
-    link.addEventListener('click', e => {
-      e.preventDefault();
-      const text = link.dataset.placeholder;
-      toast.textContent = `${text}: insira aqui o link oficial quando disponível.`;
-      toast.classList.add('show');
-      window.setTimeout(() => toast.classList.remove('show'), 3000);
-    });
   });
 })();
+
+  // Feedback visual imediato ao clique/toque.
+  document.querySelectorAll('.btn, .nav-cta').forEach(control => {
+    control.addEventListener('pointerdown', event => {
+      const rect = control.getBoundingClientRect();
+      const ripple = document.createElement('span');
+      ripple.className = 'click-ripple';
+      ripple.style.left = `${event.clientX - rect.left}px`;
+      ripple.style.top = `${event.clientY - rect.top}px`;
+      control.appendChild(ripple);
+      window.setTimeout(() => ripple.remove(), 650);
+    });
+  });
+
+  // Destaca no menu a seção atualmente visível.
+  const navLinks = [...document.querySelectorAll('.nav-menu a[href^="#"]')];
+  const sections = navLinks
+    .map(link => document.querySelector(link.getAttribute('href')))
+    .filter(Boolean);
+
+  const navObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      navLinks.forEach(link => link.classList.remove('is-current'));
+      const current = navLinks.find(link => link.getAttribute('href') === `#${entry.target.id}`);
+      current?.classList.add('is-current');
+    });
+  }, {rootMargin:'-30% 0px -60% 0px', threshold:0});
+
+  sections.forEach(section => navObserver.observe(section));
